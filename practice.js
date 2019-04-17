@@ -27,8 +27,13 @@ alert(me.name);
     Have the values to those keys be strings that are equal to your favorite thing in that category.
   */
 
-  //Code here
-
+var favoriteThings = {
+  band: "Hawthorne Heights",
+  food: "Steak", 
+  person: "Wife", 
+  book: "Moby Dick", 
+  movie: "Coming to America", 
+  holiday: "Christmas"}
 
 
   /*
