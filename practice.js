@@ -14,7 +14,13 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+var myName = {
+  name: "Jeff",
+  age: 35
+}
+function getName(myName) {
+  return myName.name
+}
 
 
 
@@ -92,9 +98,9 @@ var user2 = {
 };
 // Do not edit the code above.
 
-/* 
+/*
   Let's say I, the user, decided to change my name and email address to the following:
-  name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'. 
+  name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
   Make that change without modifying the original object code above.
 */
 
@@ -126,8 +132,8 @@ var user2 = {
 
 
 /*
-  Now add two methods (functions that are properties on objects) to your methodCollection object. 
-  One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console. 
+  Now add two methods (functions that are properties on objects) to your methodCollection object.
+  One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
 //Code Here
@@ -144,8 +150,8 @@ var user2 = {
 
 ////////// PROBLEM 6 //////////
 
-/* 
-  Create a function called makePerson which takes in name, birthday, ssn as its parameters. 
+/*
+  Create a function called makePerson which takes in name, birthday, ssn as its parameters.
   Return a new object with all of the information that you passed in.
 */
 
