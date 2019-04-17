@@ -14,88 +14,84 @@
   Then alert your name using dot notation.
 */
 
-var myName = {
+var me = {
   name: "Jeff",
   age: 35
 }
-function getName(myName) {
-  return myName.name
-}
+alert(me.name);
+
+  ////////// PROBLEM 2 //////////
+
+  /*
+    Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
+    Have the values to those keys be strings that are equal to your favorite thing in that category.
+  */
+
+  //Code here
 
 
 
-////////// PROBLEM 2 //////////
+  /*
+    After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
+    and then another key named 'brand' with the value being your favorite brand.
+  */
 
-/*
-  Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
-  Have the values to those keys be strings that are equal to your favorite thing in that category.
-*/
-
-//Code here
+  //Code here
 
 
 
-/*
-  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
-  and then another key named 'brand' with the value being your favorite brand.
-*/
+  /*
+    Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
+    and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
+  */
 
-//Code here
-
-
-
-/*
-  Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
-  and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
-*/
-
-//Code here
+  //Code here
 
 
 
-////////// PROBLEM 3 //////////
+  ////////// PROBLEM 3 //////////
 
-/* 
-  Create an empty Object called backPack. 
-  Now, create a variable called 'item' and set it equal to the string 'firstPocket'. 
-  Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
-  Set the value of that key to 'chapstick'.
-  Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
-*/
+  /* 
+    Create an empty Object called backPack. 
+    Now, create a variable called 'item' and set it equal to the string 'firstPocket'. 
+    Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
+    Set the value of that key to 'chapstick'.
+    Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
+  */
 
-//Code here
-
-
-
-/*
-  After you do the above, alert your entire backPack object.
-*/
-
-//Code here
+  //Code here
 
 
 
-/*
-You probably noticed that it just alerted [object Object].
-Alerting to see the data in your Object doesn't work so well.
-Instead, console.log your whole backPack object and then check out the console. 
-*/
+  /*
+    After you do the above, alert your entire backPack object.
+  */
 
-//Code here
+  //Code here
 
 
 
-////////// PROBLEM 4 //////////
+  /*
+  You probably noticed that it just alerted [object Object].
+  Alerting to see the data in your Object doesn't work so well.
+  Instead, console.log your whole backPack object and then check out the console. 
+  */
 
-// Do not edit the code below.
-var user2 = {
-  name: 'Ty',
-  age: 24,
-  pwHash: 'U+Ldlngx2BYQk',
-  email: 'ty33@gmail.com',
-  birthday: '05/02/1990',
-  username: 'tylermcginnis33'
-};
+  //Code here
+
+
+
+  ////////// PROBLEM 4 //////////
+
+  // Do not edit the code below.
+  var user2 = {
+    name: 'Ty',
+    age: 24,
+    pwHash: 'U+Ldlngx2BYQk',
+    email: 'ty33@gmail.com',
+    birthday: '05/02/1990',
+    username: 'tylermcginnis33'
+  };
 // Do not edit the code above.
 
 /*
