@@ -20,83 +20,88 @@ var me = {
 }
 alert(me.name);
 
-  ////////// PROBLEM 2 //////////
+////////// PROBLEM 2 //////////
 
-  /*
-    Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
-    Have the values to those keys be strings that are equal to your favorite thing in that category.
-  */
+/*
+  Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
+  Have the values to those keys be strings that are equal to your favorite thing in that category.
+*/
 
 var favoriteThings = {
   band: "Hawthorne Heights",
-  food: "Steak", 
-  person: "Wife", 
-  book: "Moby Dick", 
-  movie: "Coming to America", 
-  holiday: "Christmas"}
+  food: "Steak",
+  person: "Wife",
+  book: "Moby Dick",
+  movie: "Coming to America",
+  holiday: "Christmas"
+}
 
 
-  /*
-    After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
-    and then another key named 'brand' with the value being your favorite brand.
-  */
+/*
+  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
+  and then another key named 'brand' with the value being your favorite brand.
+*/
 
-  //Code here
+favoriteThings.car = 'Honda'
 
-
-
-  /*
-    Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
-    and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
-  */
-
-  //Code here
+favoriteThings['brand'] = 'Nike'
 
 
+/*
+  Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
+  and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
+*/
 
-  ////////// PROBLEM 3 //////////
+favoriteThings.food = "Chicken Nuggets"
 
-  /* 
-    Create an empty Object called backPack. 
-    Now, create a variable called 'item' and set it equal to the string 'firstPocket'. 
-    Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
-    Set the value of that key to 'chapstick'.
-    Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
-  */
-
-  //Code here
+favoriteThings.book = "Harry Potter"
 
 
 
-  /*
-    After you do the above, alert your entire backPack object.
-  */
+////////// PROBLEM 3 //////////
 
-  //Code here
+/* 
+  Create an empty Object called backPack. 
+  Now, create a variable called 'item' and set it equal to the string 'firstPocket'. 
+  Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
+  Set the value of that key to 'chapstick'.
+  Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
+*/
 
-
-
-  /*
-  You probably noticed that it just alerted [object Object].
-  Alerting to see the data in your Object doesn't work so well.
-  Instead, console.log your whole backPack object and then check out the console. 
-  */
-
-  //Code here
-
+let backPack = {}
+var item = 'firstPocket'
+backPack[item] = "chapstick"
+backPack.color = "gray"
 
 
-  ////////// PROBLEM 4 //////////
+/*
+  After you do the above, alert your entire backPack object.
+*/
 
-  // Do not edit the code below.
-  var user2 = {
-    name: 'Ty',
-    age: 24,
-    pwHash: 'U+Ldlngx2BYQk',
-    email: 'ty33@gmail.com',
-    birthday: '05/02/1990',
-    username: 'tylermcginnis33'
-  };
+alert(backPack)
+
+
+
+/*
+You probably noticed that it just alerted [object Object].
+Alerting to see the data in your Object doesn't work so well.
+Instead, console.log your whole backPack object and then check out the console. 
+*/
+
+console.log(backPack)
+
+
+////////// PROBLEM 4 //////////
+
+// Do not edit the code below.
+var user2 = {
+  name: 'Ty',
+  age: 24,
+  pwHash: 'U+Ldlngx2BYQk',
+  email: 'ty33@gmail.com',
+  birthday: '05/02/1990',
+  username: 'tylermcginnis33'
+};
 // Do not edit the code above.
 
 /*
@@ -105,20 +110,13 @@ var favoriteThings = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
-
-
-
-
+user2.name = "Tyler S. McGinnis"
+user2.email = "tyler.mcginnis@devmounta.in"
 
 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
-
-
-
-
 
 
 
@@ -128,8 +126,7 @@ var favoriteThings = {
   Create an empty object called methodCollection.
 */
 
-//Code Here
-
+let methodCollection = {}
 
 
 /*
@@ -137,7 +134,6 @@ var favoriteThings = {
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
-//Code Here
 
 
 
